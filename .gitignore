@@ -1,0 +1,4 @@
+data/creditcard.csv
+.venv
+.env
+__pycache__

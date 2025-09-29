@@ -1,0 +1,12 @@
+streamlit>=1.20
+pandas>=2.0
+numpy
+matplotlib
+scikit-learn
+fpdf2
+python-dotenv
+sqlalchemy
+sqlite-utils
+requests
+scipy
+seaborn==0.12.2 
