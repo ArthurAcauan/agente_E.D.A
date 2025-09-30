@@ -22,7 +22,6 @@ def basic_summary(df):
     }
 
 def column_distribution(df, column, bins=30):
-    # returns values needed for a histogram (bins, counts)
     series = df[column].dropna()
     counts, bin_edges = np.histogram(series, bins=bins)
     return {"counts": counts.tolist(), "bins": bin_edges.tolist()}

@@ -20,7 +20,6 @@ class SimpleReport:
         self.pdf.ln(2)
 
     def add_image_from_buf(self, buf, w=160):
-        # buf: BytesIO with PNG
         b64 = base64.b64encode(buf.getvalue()).decode()
         fname = "tmp_img.png"
         with open(fname, "wb") as f:

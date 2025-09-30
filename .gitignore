@@ -2,3 +2,6 @@ data/creditcard.csv
 .venv
 .env
 __pycache__
+agent_memory.db
+Agentes Autônomos – Relatório da Atividade Extra.pdf  
+.gitignore  
